@@ -32,7 +32,7 @@ RUN chmod -R ug+rwx /var/log/clamav
 
 RUN chown -R 1001:0 /opt/app-root/src
 
-USER 1001
+USER 1002
 
 EXPOSE 3310
 
